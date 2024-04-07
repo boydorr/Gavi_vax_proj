@@ -64,10 +64,9 @@ for (y in 1:length(yrs)){ # determine year
       HDI = df_gavi$HDI[i], # captures decentralization
       free =  df_gavi$vaccine_free_SQ[i], # vaccine free? (alternately could use $vaccine_paid_by_patient )
       vials_low = 3, vials_high = 1.5) # Incorporate vial calculations
-    
     # return key variables
     proj_PEP_demand[i,y] <- country_proj$PEP
-    proj_vial_demand[i,y] <- country_proj$vials
+    proj_vial_demand[i,y] <- country_proj$vials    
   }
 }
 
