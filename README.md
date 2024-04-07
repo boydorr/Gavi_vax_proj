@@ -2,7 +2,7 @@
 
 1. Import projected country population and associated data - project_bites.R
 
-   Data compiled for Gavi VIS (prepped_data_final.csv):
+   Data (all in data folder) compiled for Gavi VIS (prepped_data_final.csv):
    - world bank human population projections (2018 onwards)
    - Human Dog Ratios (exposure risk)
    - Urban/ rural populations (relates to dog ownership & PEP access)
@@ -16,6 +16,8 @@
 
 3. Project over time horizon for 2 scenarios:
    - SQ vs free PEP with improved access (decentralization) using IPC regimen
+   - outputs in outputs folder
+   - review comparison figures across countries & HDI
 
 # Key assumptions & concerns
    
@@ -28,6 +30,6 @@ Full compliance
 
 # Identified sensitivities
 
-Human dog ratio is more variable than country estimates
-Expect +/- 20% per annum based on bite variability in data
-Assumptions on health seeking changes with improved access likely to differ considerably
+- Human dog ratio is more variable than country estimates
+- Expect +/- 20% per annum based on bite variability in data
+- Assumptions on health seeking changes with improved access likely to differ considerably
