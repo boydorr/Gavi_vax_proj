@@ -1,0 +1,9 @@
+﻿Setting,regimen,completeness,vial
+rural,IM,Complete,4
+urban,IM,Complete,4
+rural,IPC,Complete,2.2
+urban,IPC,Complete,0.67
+rural,IM,Incomplete,2
+urban,IM,Incomplete,2
+rural,IPC,Incomplete,1.47
+urban,IPC,Incomplete,0.45
