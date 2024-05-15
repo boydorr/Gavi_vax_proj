@@ -35,7 +35,7 @@ pcomplete_cap <- 0.9
 step <- 0.1
 inc <- 0.03
 
-gavi_fun(j-1, df$HDI[i], step = step, inc = inc, cap_p = pcomplete_cap)
+# gavi_fun(j-1, df$HDI[i], step = step, inc = inc, cap_p = pcomplete_cap)
 
 # create vectors for recording probabilities/ projections
 Pseek_rabid <- Pseek_healthy <- Pcomplete <- rep(NA, length(yrs))

@@ -48,10 +48,6 @@ VialCalc2 <- function(bites, HDI, Pcomplete,
 #           vials_high_incomplete = subset(ipc, completeness =="Incomplete" & Setting == "urban")$vial)
 # 
 
-subset(ipc, completeness =="Incomplete" & Setting == "rural")$vial
-subset(ipc, completeness =="Complete" & Setting == "urban")$vial
-subset(ipc, completeness =="Incomplete" & Setting == "urban")$vial
-
 # Back-of-the-envelope function to calculate bite incidence & PEP demand, split by rabid & healthy
 # Gavi VIS - vaccine_paid_by_patient (TRUE/ FALSE) or vaccine_free_SQ (TRUE/FALSE)
 CalcPEP <- function(code, year, hdr, BI = 0.01, HDI, 
